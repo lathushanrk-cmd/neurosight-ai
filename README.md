@@ -6,6 +6,18 @@ NEUROSIGHT AI is a locally running React/TypeScript research-software prototype 
 
 **Current status: experimental prototype (v1.2). Not a medical device.** It does **not** diagnose neurological conditions, detect DLB cognitive fluctuations, predict wandering, or contact caregivers.
 
+## What this prototype demonstrates
+
+NEUROSIGHT AI combines webcam-based iris landmark tracking, attempted image-based pupil estimation, individual baseline calibration and exploratory time-series visualisation in a single local research interface. It can record image-derived eye features and show when a signal is too unreliable to assess. **This is a software feasibility demonstration, not evidence of successful medical screening or reliable quantitative pupillometry.**
+
+The supplied application screenshots show **working iris tracking**, but pupil estimates were often unavailable; those sessions cannot support claims of pupil-anomaly detection. A visible iris measurement is not the same as an accurate measurement of the pupil.
+
+## Screenshots and reproducibility
+
+Representative interface views cover the dashboard, live tracking, iris-size and brightness charts, baseline calibration, session history, research notes and settings. For scientific transparency, screenshots should retain their original app readings and be marked as **illustrative interface captures**, not validated measurements. Camera-feed screenshots must have personally identifying regions concealed before public upload.
+
+**Screenshot images are not yet included in the GitHub repository.** The README deliberately avoids broken image links or substituting AI-recreated graphs for actual observed measurements. A separately prepared, anonymised image set can be added later.
+
 ## Research idea
 
 Pupil size can change with illumination, accommodation and physiological state. Measuring pupil-related features from consumer webcams is difficult, but a carefully quality-controlled prototype can help investigate the feasibility, errors and limitations of such measurements.
@@ -60,18 +72,29 @@ The supplied ZIP includes a small set of unit tests; those tests are **not** a c
 
 Read [scientific methods and limitations](docs/methods_and_limitations.md) for the distinction between iris tracking, pupil segmentation, relative measurements, and medical inference.
 
+## Camera quality and measurement conditions
+
+The camera is a major limitation of this prototype. Higher image resolution, sharper focus, suitable working distance and stable, diffuse illumination **may improve** visible iris landmarks and the opportunity to segment the pupil. A better camera does **not** guarantee accurate pupil measurements, and greater resolution alone cannot correct auto-exposure, reflections, head motion, off-axis gaze or algorithmic errors.
+
+For reproducible exploratory demonstrations, use stable front lighting, avoid glare and backlighting, keep the eyes clearly visible, and minimise camera-to-face distance changes. Record the camera model, resolution, lighting and tracking-quality limitations when comparing sessions. The app measures apparent dimensions in **pixels**, not calibrated physical pupil diameter in millimetres.
+
+**A webcam measurement should not be interpreted as a clinical biomarker unless the measurement method has been separately validated against a suitable reference instrument.**
+
 ## Research roadmap
 
 - **Measurement validation:** Compare webcam pupil estimates against independently annotated images and a validated pupillometry instrument, across lighting and viewing conditions.
 - **Repeatability:** Test between-session stability, quality rejection rates and errors caused by distance, gaze and spectacles.
 - **Neuroscience research:** Only after measurement validation, investigate whether independently measured cognitive-state fluctuations correlate with pupil dynamics under an approved study protocol.
+- **Future adaptations:** Explore uses in other non-diagnostic eye-movement, lighting-response or human–computer interaction research, subject to separate validation of the relevant measurement and analysis.
 - **Caregiver-support concepts:** Evaluate feasibility and safety separately. No emergency, clinical, or wandering-risk function is established.
 
 ## Privacy, safety and evidence
 
 The supplied application is designed for local processing with browser `localStorage`; raw webcam frames are not intentionally uploaded or saved. That does not replace a formal privacy/security audit. Do not use this prototype for diagnosis, clinical care, or unattended safety monitoring.
 
-The app does not provide evidence of clinical sensitivity, specificity, predictive value or validated DLB biomarkers. Graphs represent camera-derived observations and heuristic values, not confirmed neurological abnormalities.
+The app does not provide evidence of clinical sensitivity, specificity, predictive value or validated DLB biomarkers. Graphs represent camera-derived observations and heuristic values, not confirmed neurological abnormalities. Pupil-related alerts require a reliable pupil-specific baseline: a partial **iris-only** baseline must not be interpreted as a pupil-anomaly assessment.
+
+Future reuse in other related research areas is a **possibility**, not an implemented or scientifically verified capability. Each new application would need its own measurement standards, comparison controls and, where human participants are involved, appropriate consent and ethics review.
 
 ## Project details
 
