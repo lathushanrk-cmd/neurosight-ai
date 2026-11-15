@@ -1,0 +1,12 @@
+NEUROSIGHT AI is an original experimental prototype assembled for local research demonstration.
+
+External software loaded via npm during setup:
+- React and React DOM: MIT
+- Vite: MIT
+- TypeScript: Apache-2.0
+- MediaPipe Tasks Vision: Apache-2.0 (see upstream for model-specific notes)
+- Recharts: MIT
+- Lucide React: ISC
+
+MediaPipe face_landmarker.task is fetched from the official Google AI Edge model endpoint (or a verified mirror) during installation, subject to Google's licensing and applicable model terms. Its exact SHA-256 is checked before use.
+The original license texts for these dependencies are installed via npm inside node_modules.
