@@ -1,0 +1,1 @@
+On the user's computer, 'npm install' runs scripts/setup-assets.mjs and downloads Google's official face_landmarker.task to this folder, verifying SHA-256. Internet is necessary during first setup only.
