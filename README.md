@@ -30,9 +30,9 @@ Pupil estimates can be unavailable on ordinary laptop webcams, and the software 
 
 ## Source code and getting started
 
-This repository is intended to contain the original source tree of NEUROSIGHT AI v1.2. **The full application files are not yet imported into this repository; the source ZIP remains the authoritative implementation until that import is completed.** See [Implementation status](docs/implementation_status.md).
+This repository contains the original **NEUROSIGHT AI v1.2 source files** from the supplied project ZIP, including the React app, image-analysis module, tests, and Windows launcher. The research-focused README and method notes have been edited for clarity; the application source files are unchanged from the ZIP. See [implementation status](docs/implementation_status.md).
 
-Once the source tree is imported, on a Windows computer with Node.js installed:
+To run on Windows with Node.js installed:
 
 ```powershell
 npm install
@@ -80,3 +80,9 @@ The app does not provide evidence of clinical sensitivity, specificity, predicti
 **Version of supplied source:** 1.2.0
 
 The scientific intent and limitations of the source are described here without asserting that unperformed validation has been completed.
+
+## Development and reuse
+
+NEUROSIGHT AI is an experimental research-prototype concept developed by Lathushan RK. AI-assisted tools supported aspects of the technical implementation and refinement. Scientific interpretation and clinical applicability remain unvalidated.
+
+The source ZIP includes a [third-party license notice](LICENSE-THIRD-PARTY.txt), but does not include a standalone open-source license for the original application. Do not assume the project is MIT-licensed merely because its dependencies use open-source licenses.
