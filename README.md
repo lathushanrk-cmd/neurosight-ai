@@ -12,11 +12,35 @@ NEUROSIGHT AI combines webcam-based iris landmark tracking, attempted image-base
 
 The supplied application screenshots show **working iris tracking**, but pupil estimates were often unavailable; those sessions cannot support claims of pupil-anomaly detection. A visible iris measurement is not the same as an accurate measurement of the pupil.
 
-## Screenshots and reproducibility
+## Actual application screenshots
 
-Representative interface views cover the dashboard, live tracking, iris-size and brightness charts, baseline calibration, session history, research notes and settings. For scientific transparency, screenshots should retain their original app readings and be marked as **illustrative interface captures**, not validated measurements. Camera-feed screenshots must have personally identifying regions concealed before public upload.
+These are screenshots of NEUROSIGHT AI running locally, **not mockups, AI-redrawn dashboards or clinical study results**. The live webcam frame has been privacy-redacted: only the eye-landmark overlays remain visible. Text, chart traces and numbers were retained from the captured application interface.
 
-**Screenshot images are not yet included in the GitHub repository.** The README deliberately avoids broken image links or substituting AI-recreated graphs for actual observed measurements. A separately prepared, anonymised image set can be added later.
+### Dashboard — camera standby
+
+![NEUROSIGHT AI neural observation dashboard before camera activation](docs/images/01-dashboard-ready.png)
+
+### Webcam tracking — privacy-redacted
+
+![NEUROSIGHT AI live iris-landmark tracking with identifying camera imagery concealed](docs/images/02-dashboard-live-private.png)
+
+*In this example, iris landmarks are detected but pupil estimates are unavailable. The display correctly shows "Not assessed" rather than claiming a pupil abnormality.*
+
+### Monitoring views
+
+| Iris-size time series | Brightness and measurement quality |
+| --- | --- |
+| ![Live iris-size signal analysis](docs/images/03-live-analysis-iris.png) | ![Live camera brightness chart](docs/images/04-live-analysis-brightness.png) |
+
+| Personal baseline calibration | Session history |
+| --- | --- |
+| ![Baseline calibration and quality restrictions](docs/images/05-baseline-calibration.png) | ![Historical signals and session records](docs/images/06-historical-analysis.png) |
+
+| Research notes and caregiver concept | Local processing settings |
+| --- | --- |
+| ![Research-mode annotation and non-operational caregiver concept](docs/images/07-research-mode.png) | ![Camera, analysis and privacy settings](docs/images/08-settings.png) |
+
+**Evidence limits:** These screenshots establish that the interface displayed the listed monitoring functions during a local demonstration. They do **not** verify pupil-diameter accuracy, reliable anomaly classification, neurological disease detection or an operational caregiver alert service.
 
 ## Research idea
 
