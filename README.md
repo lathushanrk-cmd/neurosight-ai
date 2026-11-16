@@ -8,7 +8,13 @@
 
 <p align="center"><sub>Experimental prototype · v1.2 · React / TypeScript · Not a medical device</sub></p>
 
-<p align="center">[What it demonstrates](#what-this-prototype-demonstrates) · [Screenshots](#actual-application-screenshots) · [Source and setup](#source-code-and-getting-started) · [Camera limits](#camera-quality-and-measurement-conditions) · [Future work](#research-roadmap)</p>
+<p align="center">
+  <a href="#what-this-prototype-demonstrates">What it demonstrates</a> &nbsp;·&nbsp;
+  <a href="#actual-application-screenshots">Screenshots</a> &nbsp;·&nbsp;
+  <a href="#source-code-and-getting-started">Source and setup</a> &nbsp;·&nbsp;
+  <a href="#camera-quality-and-measurement-conditions">Camera limits</a> &nbsp;·&nbsp;
+  <a href="#research-roadmap">Future work</a>
+</p>
 
 ---
 
@@ -20,7 +26,7 @@ The supplied application screenshots show **working iris tracking**, but pupil e
 
 ## Actual application screenshots
 
-These are screenshots of NEUROSIGHT AI running locally, **not mockups, AI-redrawn dashboards or clinical study results**. The live webcam frame has been privacy-redacted: only the eye-landmark overlays remain visible. Text, chart traces and numbers were retained from the captured application interface.
+These are screenshots of NEUROSIGHT AI running locally, **not mockups, AI-redrawn dashboards or clinical study results**. The live webcam frame has been edited for privacy: the camera scene, face and body have been blurred while the eye-area landmarks and interface badges remain visible. Text, chart traces and numbers were retained from the captured application interface.
 
 ### Dashboard — camera standby
 
@@ -28,7 +34,7 @@ These are screenshots of NEUROSIGHT AI running locally, **not mockups, AI-redraw
 
 ### Webcam tracking — privacy-redacted
 
-![NEUROSIGHT AI live iris-landmark tracking with identifying camera imagery concealed](docs/images/02-dashboard-live-private.png)
+![NEUROSIGHT AI live iris-landmark tracking with the camera scene blurred for privacy](docs/images/02-dashboard-live-private.png)
 
 *In this example, iris landmarks are detected but pupil estimates are unavailable. The display correctly shows "Not assessed" rather than claiming a pupil abnormality.*
 
