@@ -6,7 +6,7 @@ The screenshots show the actual application interface and its displayed measurem
 
 ## Privacy handling
 
-The source webcam screenshot contained a person. The version committed as `docs/images/02-dashboard-live-private.png` is **privacy-redacted**: the identifiable camera scene and face/body have been concealed, with only small iris/eye landmark indicators preserved. The original unredacted webcam screenshot has **not** been committed.
+The source webcam screenshot contained a person. The version committed as `docs/images/02-dashboard-live-private.png` is **privacy-redacted**: the camera scene, face and body have been blurred to reduce identifying detail; the eye-area landmark overlays and original in-app badges remain visible. This does not guarantee anonymity, particularly where eye-region features remain visible. The original unredacted webcam screenshot has **not** been intentionally committed in the published files. Avoid publishing the original capture or other identifiable camera frames.
 
 ## Scientific interpretation
 
