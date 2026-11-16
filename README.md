@@ -1,10 +1,16 @@
-# NEUROSIGHT AI
+<p align="center">
+  <img src="docs/images/readme_banner.svg" alt="Original conceptual banner for NEUROSIGHT AI; not experimental data" width="100%" />
+</p>
 
-**Experimental webcam pupillometry and eye-pattern monitoring**
+<h1 align="center">NEUROSIGHT AI</h1>
 
-NEUROSIGHT AI is a locally running React/TypeScript research-software prototype that explores whether an ordinary laptop camera can capture useful eye and pupil-related measurements over time. Its longer-term research direction is the study of pupil dynamics and cognitive-state fluctuations, including potential applications in disorders such as dementia with Lewy bodies (DLB).
+<p align="center"><strong>An experimental local webcam interface for iris tracking and exploratory pupil-related monitoring.</strong></p>
 
-**Current status: experimental prototype (v1.2). Not a medical device.** It does **not** diagnose neurological conditions, detect DLB cognitive fluctuations, predict wandering, or contact caregivers.
+<p align="center"><sub>Experimental prototype · v1.2 · React / TypeScript · Not a medical device</sub></p>
+
+<p align="center">[What it demonstrates](#what-this-prototype-demonstrates) · [Screenshots](#actual-application-screenshots) · [Source and setup](#source-code-and-getting-started) · [Camera limits](#camera-quality-and-measurement-conditions) · [Future work](#research-roadmap)</p>
+
+---
 
 ## What this prototype demonstrates
 
